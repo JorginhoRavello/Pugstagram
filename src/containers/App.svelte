@@ -1,6 +1,15 @@
-<div class="main">
-<h1>Hello Pugstagram</h1>
-</div>
+<script>
+    import Header from '../components/Header.svelte';
+    import Sidebar from '../components/Sidebar.svelte';
+    import TimeLine from '../components/TimeLine.svelte';
+    import Main from '../components/Main.svelte';
+
+</script>
+<Header />
+<Main>
+    <TimeLine />
+    <Sidebar />
+</Main>
 
 <style>
     :global(body){
