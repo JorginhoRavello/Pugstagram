@@ -1,5 +1,8 @@
 <script>
     import Card from './Card.svelte';
+    import Loader from './Loader.svelte';
+    
+    export let posts = [];
 </script>
 
 <style>
@@ -10,6 +13,11 @@
 
 <div class="TimeLine">
     <div class="TimeLine-containe">
-        <Card />
+       {#each posts as post }
+        <Card {...post} />
+           {:else}
+           <loader />
+
+       {/each}
     </div>
 </div>

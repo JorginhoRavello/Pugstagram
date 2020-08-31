@@ -1,3 +1,7 @@
+<script>
+    export let nickname;
+    export let name;
+</script>
 <style>
     .Profile-content {
       display: flex;
@@ -29,8 +33,8 @@
             <img src="https://i.pinimg.com/564x/0b/d1/a1/0bd1a1b9a87c8ebd76ddc936a743c2ad.jpg" alt="" />
         </div>
         <div class="Profile-info">
-            <h2>Kirito</h2>
-            <span>kirigaya kazuto</span>
+            <h2>{nickname}</h2>
+            <span>{name}</span>
         </div>
     </div>
 </div>
