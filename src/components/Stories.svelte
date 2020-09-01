@@ -1,3 +1,9 @@
+<script>
+	 
+	 export let nickname;
+    export let name;
+</script>
+
 <style>
 	.Stories {
 	  border: 1px solid rgba(219, 219, 219, 1);
@@ -67,8 +73,24 @@
 					<div class="Stories-item-box">
 						<img src="https://i.pinimg.com/564x/0b/d1/a1/0bd1a1b9a87c8ebd76ddc936a743c2ad.jpg" alt="" />
 					</div>
-					<h2>Kirito
-						<pan>10 horas antes</pan>
+					<h2>{nickname}
+						<span>2 horas antes</span>
+					</h2>
+				</div>
+				<div class="Stories-item">
+					<div class="Stories-item-box">
+						<img src="https://i.pinimg.com/564x/0b/d1/a1/0bd1a1b9a87c8ebd76ddc936a743c2ad.jpg" alt="" />
+					</div>
+					<h2>{nickname}
+						<span>5 horas antes</span>
+					</h2>
+				</div>
+				<div class="Stories-item">
+					<div class="Stories-item-box">
+						<img src="https://i.pinimg.com/564x/0b/d1/a1/0bd1a1b9a87c8ebd76ddc936a743c2ad.jpg" alt="" />
+					</div>
+					<h2>{nickname}
+						<span>10 horas antes</span>
 					</h2>
 				</div>
 			</div>

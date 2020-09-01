@@ -5,7 +5,7 @@
       background-color: white;
       margin: 0 0 2em 0;
       width: 300px;
-      height: 120px;
+      height: 180px;
       position: absolute;
       top: 300px;
       left: 30%;
@@ -37,17 +37,25 @@
       font-size: 20px;
     }
     .Share-facebook i {
-    color: #3b5998;
+      color: #3b5998;
     }
     .Share-whatsapp i {
-     color: #1bd741;
+      color: #1bd741;
     }
+    .Share-twitter {
+      color:#1DA1F2
+    }
+    .share-exit {
+      color: red;
+      font-size: 20px;
+      cursor: pointer;
+  }
 </style>
 
 <div class="Share">
     <div class="Share-head">
         <h2>Compartir</h2>
-        <i class="fas fa-time-circle" on:click />
+        <i class="far fa-times-circle share-exit" on:click />
     </div>
     <div class="Share-content">
         <div class="Share-facebook">
@@ -61,6 +69,14 @@
                 <i class="fab fa-whatsapp-square" />
                 Compartir en Whatsapp!
             </a>
+        </div>
+        <div class="Share-twitter">
+          <a href="https://twitter.com/intent/tweet?text=Aprendiendo%20a%20crear%20un%20enlace%20para%20compartir%20en%20Twitter&url=https://devstagram.netlify.app/"
+              target="_blank"
+              class="share__link">
+              <i class="fab fa-twitter-square share__icon-social" />
+              Compartir en Twitter
+          </a>
         </div>
     </div>
 </div>
